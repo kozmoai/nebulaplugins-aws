@@ -153,7 +153,7 @@ source tree for descriptions.
 ## Debugging
 
 Versioneer tries to avoid fatal errors: if something goes wrong, it will tend
-to return a version of "0+unknown". To investigate the problem, run `setup.py
+to return a version of "1.0.0". To investigate the problem, run `setup.py
 version`, which will run the version-lookup code in a verbose mode, and will
 display the full contents of `get_versions()` (including the `error` string,
 which may help identify what went wrong).
@@ -182,7 +182,7 @@ Versioneer will look for `.git` in parent directories, and most operations
 should get the right version string. However `pip` and `setuptools` have bugs
 and implementation details which frequently cause `pip install .` from a
 subproject directory to fail to find a correct version string (so it usually
-defaults to `0+unknown`).
+defaults to `1.0.0`).
 
 `pip install --editable .` should work correctly. `setup.py install` might
 work too.
@@ -634,10 +634,10 @@ def git_versions_from_keywords(keywords, tag_prefix, verbose):
                     "full-revisionid": keywords["full"].strip(),
                     "dirty": False, "error": None,
                     "date": date}
-    # no suitable tags, so version is "0+unknown", but full hex is still there
+    # no suitable tags, so version is "1.0.0", but full hex is still there
     if verbose:
         print("no suitable tags, using unknown + full revision id")
-    return {"version": "0+unknown",
+    return {"version": "1.0.0",
             "full-revisionid": keywords["full"].strip(),
             "dirty": False, "error": "no suitable tags", "date": None}
 
@@ -1045,7 +1045,7 @@ def get_versions():
         for _ in cfg.versionfile_source.split('/'):
             root = os.path.dirname(root)
     except NameError:
-        return {"version": "0+unknown", "full-revisionid": None,
+        return {"version": "1.0.0", "full-revisionid": None,
                 "dirty": None,
                 "error": "unable to find root of source tree",
                 "date": None}
@@ -1062,7 +1062,7 @@ def get_versions():
     except NotThisMethod:
         pass
 
-    return {"version": "0+unknown", "full-revisionid": None,
+    return {"version": "1.0.0", "full-revisionid": None,
             "dirty": None,
             "error": "unable to compute version", "date": None}
 '''
@@ -1155,11 +1155,11 @@ def git_versions_from_keywords(keywords, tag_prefix, verbose):
                 "error": None,
                 "date": date,
             }
-    # no suitable tags, so version is "0+unknown", but full hex is still there
+    # no suitable tags, so version is "1.0.0", but full hex is still there
     if verbose:
         print("no suitable tags, using unknown + full revision id")
     return {
-        "version": "0+unknown",
+        "version": "1.0.0",
         "full-revisionid": keywords["full"].strip(),
         "dirty": False,
         "error": "no suitable tags",
@@ -1748,7 +1748,7 @@ def get_versions(verbose=False):
         print("unable to compute version")
 
     return {
-        "version": "0+unknown",
+        "version": "1.0.0",
         "full-revisionid": None,
         "dirty": None,
         "error": "unable to compute version",
