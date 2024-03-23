@@ -37,12 +37,12 @@ def insert_blocks_catalog(generated_file):
         return
     generated_file.write(dedent(f"""
             Below is a list of Blocks available for registration in
-            `nebulaplugins-aws`.
+            `nebula-aws`.
 
             To register blocks in this module to
             [view and edit them](https://docs.nebula.io/ui/blocks/)
             on Nebula Cloud, first [install the required packages](
-            https://kozmoai.github.io/nebulaplugins-aws/#installation),
+            https://kozmoai.github.io/nebula-aws/#installation),
             then
             ```bash
             nebula block register -m {COLLECTION_SLUG}

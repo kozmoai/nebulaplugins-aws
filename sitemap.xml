@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/batch/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/batch/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/blocks_catalog/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/blocks_catalog/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/client_waiter/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/client_waiter/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/contributing/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/contributing/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/credentials/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/credentials/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/ecs/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/ecs/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/ecs_guide/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/ecs_guide/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/ecs_worker/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/ecs_worker/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/examples_catalog/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/examples_catalog/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/lambda_function/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/lambda_function/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/s3/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/s3/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/secrets_manager/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/secrets_manager/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kozmoai.github.io/nebulaplugins-aws/deployments/steps/</loc>
+         <loc>https://kozmoai.github.io/nebula-aws/deployments/steps/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
