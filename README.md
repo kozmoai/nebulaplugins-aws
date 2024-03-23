@@ -29,7 +29,3 @@ To start using `nebula-aws`:
 ```bash
 pip install nebula-aws
 ```
-
-### Contributing
-
-Thanks for thinking about chipping in! Check out this [step-by-step guide](https://kozmoai.github.io/nebula-aws/#installation) on how to get started.

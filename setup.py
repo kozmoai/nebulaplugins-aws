@@ -2,6 +2,8 @@ from setuptools import find_packages, setup
 
 import versioneer
 
+__version__ == '1.0.0'
+
 with open("requirements.txt") as install_requires_file:
     install_requires = install_requires_file.read().strip().split("\n")
 
@@ -21,7 +23,8 @@ setup(
     url="https://github.com/kozmoai/nebula-aws",
     long_description=readme,
     long_description_content_type="text/markdown",
-    version=versioneer.get_version(),
+    version=__version__,
+    # version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     packages=find_packages(exclude=("tests", "docs")),
     python_requires=">=3.7",
