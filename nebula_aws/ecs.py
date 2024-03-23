@@ -300,7 +300,7 @@ class ECSTask(Infrastructure):
     _block_type_name = "ECS Task"
     _logo_url = "https://cdn.sanity.io/images/3ugk85nk/production/d74b16fe84ce626345adf235a47008fea2869a60-225x225.png"  # noqa
     _description = "Run a command as an ECS task."  # noqa
-    _documentation_url = "https://kozmoai.github.io/nebulaplugins-aws/ecs/#nebula_aws.ecs.ECSTask"  # noqa
+    _documentation_url = "https://kozmoai.github.io/nebula-aws/ecs/#nebula_aws.ecs.ECSTask"  # noqa
 
     type: Literal["ecs-task"] = Field(
         "ecs-task", description="The slug for this task type."

@@ -12,13 +12,13 @@ with open("README.md") as readme_file:
     readme = readme_file.read()
 
 setup(
-    name="nebulaplugins-aws",
+    name="nebula-aws",
     description="Nebula collection of tasks and subflows to integrate with AWS",
     license="Apache License 2.0",
     author="Kozmoai, Inc.",
     author_email="help@nebula.io",
     keywords="nebula",
-    url="https://github.com/kozmoai/nebulaplugins-aws",
+    url="https://github.com/kozmoai/nebula-aws",
     long_description=readme,
     long_description_content_type="text/markdown",
     # version='1.0.0',

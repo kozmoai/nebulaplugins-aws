@@ -7,7 +7,7 @@
       "full_name": "Kozmoai, Inc.",
       "email": "help@nebula.io",
       "github_organization": "kozmoai",
-      "collection_name": "nebulaplugins-aws",
+      "collection_name": "nebula-aws",
       "collection_slug": "nebula_aws",
       "collection_short_description": "Nebula integrations for interacting with AWS.",
       "_copy_without_render": [

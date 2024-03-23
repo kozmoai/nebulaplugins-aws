@@ -407,7 +407,7 @@ class S3Bucket(WritableFileSystem, WritableDeploymentStorage, ObjectStorageBlock
     _logo_url = "https://cdn.sanity.io/images/3ugk85nk/production/d74b16fe84ce626345adf235a47008fea2869a60-225x225.png"  # noqa
     _block_type_name = "S3 Bucket"
     _documentation_url = (
-        "https://kozmoai.github.io/nebulaplugins-aws/s3/#nebula_aws.s3.S3Bucket"  # noqa
+        "https://kozmoai.github.io/nebula-aws/s3/#nebula_aws.s3.S3Bucket"  # noqa
     )
 
     bucket_name: str = Field(default=..., description="Name of your bucket.")
@@ -690,7 +690,7 @@ class S3Bucket(WritableFileSystem, WritableDeploymentStorage, ObjectStorageBlock
         Joins the base bucket folder to the bucket path.
         NOTE: If a method reuses another method in this class, be careful to not
         call this  twice because it'll join the bucket folder twice.
-        See https://github.com/kozmoai/nebulaplugins-aws/issues/141 for a past issue.
+        See https://github.com/kozmoai/nebula-aws/issues/141 for a past issue.
         """
         if not self.bucket_folder and not bucket_path:
             # there's a difference between "." and "", at least in the tests

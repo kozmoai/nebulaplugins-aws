@@ -1,4 +1,4 @@
-# nebulaplugins-aws
+# nebula-aws
 
 ## Getting Started
 
@@ -28,13 +28,13 @@ https://github.com/organizations/kozmoai/repositories/new
 
 Upon creation, push the repository to GitHub:
 ```bash
-git remote add origin https://github.com/kozmoai/nebulaplugins-aws.git
+git remote add origin https://github.com/kozmoai/nebula-aws.git
 git branch -M main
 git push -u origin main
 ```
 
 It's recommended to setup some protection rules for main at:
-https://github.com/kozmoai/nebulaplugins-aws/settings/branches
+https://github.com/kozmoai/nebula-aws/settings/branches
 
 - Require a pull request before merging
 - Require approvals
@@ -96,7 +96,7 @@ Once you've obtained a PyPI API token, [create a GitHub secret](https://docs.git
 
 To publish a new version of your collection, [create a new GitHub release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release) and tag it with the version that you want to deploy (e.g. v0.3.2). This will trigger a workflow to publish the new version on PyPI and deploy the updated docs to GitHub pages.
 
-Upon publishing, a `docs` branch is automatically created. To hook this up to GitHub Pages, simply head over to https://github.com/kozmoai/nebulaplugins-aws/settings/pages, select `docs` under the dropdown menu, keep the default `/root` folder, `Save`, and upon refresh, you should see a prompt stating "Your site is published at https://kozmoai.github.io/nebulaplugins-aws". Don't forget to add this link to the repo's "About" section, under "Website" so users can access the docs easily.
+Upon publishing, a `docs` branch is automatically created. To hook this up to GitHub Pages, simply head over to https://github.com/kozmoai/nebula-aws/settings/pages, select `docs` under the dropdown menu, keep the default `/root` folder, `Save`, and upon refresh, you should see a prompt stating "Your site is published at https://kozmoai.github.io/nebula-aws". Don't forget to add this link to the repo's "About" section, under "Website" so users can access the docs easily.
 
 Feel free to [submit your collection](https://docs.nebula.io/collections/overview/#listing-in-the-collections-catalog) to the Nebula [Collections Catalog](https://docs.nebula.io/collections/catalog/)!
 
