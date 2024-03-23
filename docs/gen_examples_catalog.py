@@ -102,7 +102,7 @@ with mkdocs_gen_files.open(examples_catalog_path, "w") as generated_file:
     generated_file.write(dedent("""
             # Examples Catalog
 
-            Below is a list of examples for `nebula-aws`.
+            Below is a list of examples for `nebulaplugins-aws`.
             """))
     for module_name, code_examples in code_examples_grouping.items():
         if len(code_examples) == 0:

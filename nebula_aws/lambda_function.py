@@ -65,8 +65,8 @@ from nebula_aws.credentials import AwsCredentials
 
 
 class LambdaFunction(Block):
-    """Invoke a Lambda function. This block is part of the nebula-aws
-    collection. Install nebula-aws with `pip install nebula-aws` to use this
+    """Invoke a Lambda function. This block is part of the nebulaplugins-aws
+    collection. Install nebulaplugins-aws with `pip install nebulaplugins-aws` to use this
     block.
 
     Attributes:
@@ -83,7 +83,7 @@ class LambdaFunction(Block):
 
     _block_type_name = "Lambda Function"
     _logo_url = "https://cdn.sanity.io/images/3ugk85nk/production/d74b16fe84ce626345adf235a47008fea2869a60-225x225.png"  # noqa
-    _documentation_url = "https://kozmoai.github.io/nebula-aws/s3/#nebula_aws.lambda_function.LambdaFunction"  # noqa
+    _documentation_url = "https://kozmoai.github.io/nebulaplugins-aws/s3/#nebula_aws.lambda_function.LambdaFunction"  # noqa
 
     function_name: str = Field(
         title="Function Name",

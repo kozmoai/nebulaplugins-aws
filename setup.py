@@ -18,7 +18,7 @@ setup(
     author="Kozmoai, Inc.",
     author_email="help@nebula.io",
     keywords="nebula",
-    url="https://github.com/kozmoai/nebula-aws",
+    url="https://github.com/kozmoai/nebulaplugins-aws",
     long_description=readme,
     long_description_content_type="text/markdown",
     # version='1.0.0',

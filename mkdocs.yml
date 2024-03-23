@@ -1,6 +1,6 @@
-site_name: nebula-aws
-site_url: https://kozmoai.github.io/nebula-aws
-repo_url: https://github.com/kozmoai/nebula-aws
+site_name: nebulaplugins-aws
+site_url: https://kozmoai.github.io/nebulaplugins-aws
+repo_url: https://github.com/kozmoai/nebulaplugins-aws
 edit_uri: edit/main/docs/
 theme:
   name: material

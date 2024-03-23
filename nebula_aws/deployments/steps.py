@@ -76,7 +76,7 @@ def push_to_s3(
         ```yaml
         push:
             - nebula_aws.deployments.steps.push_to_s3:
-                requires: nebula-aws
+                requires: nebulaplugins-aws
                 bucket: my-bucket
                 folder: my-project
         ```
@@ -85,7 +85,7 @@ def push_to_s3(
         ```yaml
         push:
             - nebula_aws.deployments.steps.push_to_s3:
-                requires: nebula-aws
+                requires: nebulaplugins-aws
                 bucket: my-bucket
                 folder: my-project
                 credentials: "{{ nebula.blocks.aws-credentials.dev-credentials }}"
@@ -154,7 +154,7 @@ def pull_from_s3(
         ```yaml
         pull:
             - nebula_aws.deployments.steps.pull_from_s3:
-                requires: nebula-aws
+                requires: nebulaplugins-aws
                 bucket: my-bucket
                 folder: my-project
         ```
@@ -163,7 +163,7 @@ def pull_from_s3(
         ```yaml
         pull:
             - nebula_aws.deployments.steps.pull_from_s3:
-                requires: nebula-aws
+                requires: nebulaplugins-aws
                 bucket: my-bucket
                 folder: my-project
                 credentials: "{{ nebula.blocks.aws-credentials.dev-credentials }}"

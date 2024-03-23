@@ -1,14 +1,14 @@
-# `nebula-aws`
+# `nebulaplugins-aws`
 
 <p align="center">
-    <a href="https://pypi.python.org/pypi/nebula-aws/" alt="PyPI version">
-        <img alt="PyPI" src="https://img.shields.io/pypi/v/nebula-aws?color=26272B&labelColor=090422"></a>
-    <a href="https://github.com/kozmoai/nebula-aws/" alt="Stars">
-        <img src="https://img.shields.io/github/stars/kozmoai/nebula-aws?color=26272B&labelColor=090422" /></a>
-    <a href="https://pepy.tech/badge/nebula-aws/" alt="Downloads">
-        <img src="https://img.shields.io/pypi/dm/nebula-aws?color=26272B&labelColor=090422" /></a>
-    <a href="https://github.com/kozmoai/nebula-aws/pulse" alt="Activity">
-        <img src="https://img.shields.io/github/commit-activity/m/kozmoai/nebula-aws?color=26272B&labelColor=090422" /></a>
+    <a href="https://pypi.python.org/pypi/nebulaplugins-aws/" alt="PyPI version">
+        <img alt="PyPI" src="https://img.shields.io/pypi/v/nebulaplugins-aws?color=26272B&labelColor=090422"></a>
+    <a href="https://github.com/kozmoai/nebulaplugins-aws/" alt="Stars">
+        <img src="https://img.shields.io/github/stars/kozmoai/nebulaplugins-aws?color=26272B&labelColor=090422" /></a>
+    <a href="https://pepy.tech/badge/nebulaplugins-aws/" alt="Downloads">
+        <img src="https://img.shields.io/pypi/dm/nebulaplugins-aws?color=26272B&labelColor=090422" /></a>
+    <a href="https://github.com/kozmoai/nebulaplugins-aws/pulse" alt="Activity">
+        <img src="https://img.shields.io/github/commit-activity/m/kozmoai/nebulaplugins-aws?color=26272B&labelColor=090422" /></a>
     <br>
     <a href="https://nebula-community.slack.com" alt="Slack">
         <img src="https://img.shields.io/badge/slack-join_community-red.svg?color=26272B&labelColor=090422&logo=slack" /></a>
@@ -18,14 +18,14 @@
 
 ## Welcome!
 
-`nebula-aws` makes it easy to leverage the capabilities of AWS in your flows, featuring support for ECSTask, S3, Secrets Manager, Batch Job, and Client Waiter.
+`nebulaplugins-aws` makes it easy to leverage the capabilities of AWS in your flows, featuring support for ECSTask, S3, Secrets Manager, Batch Job, and Client Waiter.
 
 
 ## Getting Started
 
 ### Saving credentials to a block
 
-You will need an AWS account and credentials in order to use `nebula-aws`.
+You will need an AWS account and credentials in order to use `nebulaplugins-aws`.
 
 1. Refer to the [AWS Configuration documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-creds) on how to retrieve your access key ID and secret access key
 2. Copy the access key ID and secret access key
@@ -132,7 +132,7 @@ nebula deployment build ecs_task_script.py:ecs_task_flow \
     -n ecs-task-deployment \
     -ib ecs-task/${ECS_TASK_BLOCK_NAME} \
     -sb s3-bucket/${S3_BUCKET_BLOCK_NAME} \
-    --override env.EXTRA_PIP_PACKAGES=nebula-aws
+    --override env.EXTRA_PIP_PACKAGES=nebulaplugins-aws
 ```
 
 Now apply the deployment!
@@ -160,9 +160,9 @@ Once the flow run has completed, you will see `Hello, Nebula!` logged in the CLI
 !!! info "No class found for dispatch key"
 
     If you encounter an error message like `KeyError: "No class found for dispatch key 'ecs-task' in registry for type 'Block'."`,
-    ensure `nebula-aws` is installed in the environment in which your agent is running!
+    ensure `nebulaplugins-aws` is installed in the environment in which your agent is running!
 
-Another tutorial on `ECSTask` can be found [here](https://towardsdatascience.com/nebula-aws-ecs-fargate-github-actions-make-serverless-dataflows-as-easy-as-py-f6025335effc).
+Another tutorial on `ECSTask` can be found [here](https://towardsdatascience.com/nebulaplugins-aws-ecs-fargate-github-actions-make-serverless-dataflows-as-easy-as-py-f6025335effc).
 
 #### Within Flow
 
@@ -254,13 +254,13 @@ For additional recipes and examples, check out [`nebula-recipes`](https://github
 
 ### Installation
 
-Install `nebula-aws`
+Install `nebulaplugins-aws`
 
 ```bash
-pip install nebula-aws
+pip install nebulaplugins-aws
 ```
 
-A list of available blocks in `nebula-aws` and their setup instructions can be found [here](https://kozmoai.github.io/nebula-aws/#blocks-catalog).
+A list of available blocks in `nebulaplugins-aws` and their setup instructions can be found [here](https://kozmoai.github.io/nebulaplugins-aws/#blocks-catalog).
 
 Requires an installation of Python 3.7+
 
@@ -270,8 +270,8 @@ These tasks are designed to work with Nebula 2.0. For more information about how
 
 ### Feedback
 
-If you encounter any bugs while using `nebula-aws`, feel free to open an issue in the [`nebula-aws`](https://github.com/kozmoai/nebula-aws) repository.
+If you encounter any bugs while using `nebulaplugins-aws`, feel free to open an issue in the [`nebulaplugins-aws`](https://github.com/kozmoai/nebulaplugins-aws) repository.
 
-If you have any questions or issues while using `nebula-aws`, you can find help in either the [Nebula Discourse forum](https://discourse.nebula.io/) or the [Nebula Slack community](https://nebula.io/slack).
+If you have any questions or issues while using `nebulaplugins-aws`, you can find help in either the [Nebula Discourse forum](https://discourse.nebula.io/) or the [Nebula Slack community](https://nebula.io/slack).
  
-Feel free to star or watch [`nebula-aws`](https://github.com/kozmoai/nebula-aws) for updates too!
+Feel free to star or watch [`nebulaplugins-aws`](https://github.com/kozmoai/nebulaplugins-aws) for updates too!

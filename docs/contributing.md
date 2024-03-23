@@ -1,6 +1,6 @@
 # Contributing
 
-If you'd like to help contribute to fix an issue or add a feature to `nebula-aws`, please [propose changes through a pull request from a fork of the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
+If you'd like to help contribute to fix an issue or add a feature to `nebulaplugins-aws`, please [propose changes through a pull request from a fork of the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
 Here are the steps:
 
@@ -12,7 +12,7 @@ pip install -e ".[dev]"
 ```
 4. Make desired changes
 5. Add tests
-6. Insert an entry to [CHANGELOG.md](https://github.com/kozmoai/nebula-aws/blob/main/CHANGELOG.md)
+6. Insert an entry to [CHANGELOG.md](https://github.com/kozmoai/nebulaplugins-aws/blob/main/CHANGELOG.md)
 7. Install `pre-commit` to perform quality checks prior to commit:
 ```
 pre-commit install

@@ -184,7 +184,7 @@ Create a JSON file with the following contents:
             "command": [
                 "/bin/sh",
                 "-c",
-                "pip install nebula-aws && nebula worker start --pool my-ecs-pool --type ecs"
+                "pip install nebulaplugins-aws && nebula worker start --pool my-ecs-pool --type ecs"
             ],
             "environment": [
                 {
