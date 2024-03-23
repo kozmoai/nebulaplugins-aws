@@ -351,9 +351,7 @@ async def test_cpu_and_memory(aws_credentials, launch_type: str, cpu: int, memor
 
     task = describe_task(ecs_client, task_arn)
     task_definition = describe_task_definition(ecs_client, task)
-    container_definition = get_nebula_container(
-        task_definition["containerDefinitions"]
-    )
+    container_definition = get_nebula_container(task_definition["containerDefinitions"])
     overrides = task["overrides"]
     container_overrides = get_nebula_container(overrides["containerOverrides"])
 
@@ -586,9 +584,7 @@ async def test_nebula_container_in_task_definition(aws_credentials):
         "gone",
     ], "The command should be left unchanged on the task definition"
 
-    assert (
-        nebula_container["privileged"] is True
-    ), "Extra attributes should be retained"
+    assert nebula_container["privileged"] is True, "Extra attributes should be retained"
 
     container_overrides = get_nebula_container(task["overrides"]["containerOverrides"])
     assert container_overrides["command"] == [
@@ -740,9 +736,7 @@ async def test_default_cpu_and_memory_in_task_definition(
 
     task = describe_task(ecs_client, task_arn)
     task_definition = describe_task_definition(ecs_client, task)
-    container_definition = get_nebula_container(
-        task_definition["containerDefinitions"]
-    )
+    container_definition = get_nebula_container(task_definition["containerDefinitions"])
     overrides = task["overrides"]
     container_overrides = get_nebula_container(overrides["containerOverrides"])
 

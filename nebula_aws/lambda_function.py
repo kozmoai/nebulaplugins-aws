@@ -66,8 +66,8 @@ from nebula_aws.credentials import AwsCredentials
 
 class LambdaFunction(Block):
     """Invoke a Lambda function. This block is part of the nebulaplugins-aws
-    collection. Install nebulaplugins-aws with `pip install nebulaplugins-aws` to use this
-    block.
+    collection. Install nebulaplugins-aws with `pip install nebulaplugins-aws`
+    to use this block.
 
     Attributes:
         function_name: The name, ARN, or partial ARN of the Lambda function to

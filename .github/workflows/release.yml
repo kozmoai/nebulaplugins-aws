@@ -29,22 +29,22 @@ jobs:
           name: built-package
           path: "./dist"
 
-#  publish-release:
-#    name: Publish release to PyPI
-#    needs: [build-release]
-#    environment: "prod"
-#    runs-on: ubuntu-latest
-#    steps:
-#      - name: Download build artifacts
-#        uses: actions/download-artifact@v3
-#        with:
-#          name: built-package
-#          path: './dist'
-#      - name: Publish distribution to PyPI
-#        uses: pypa/gh-action-pypi-publish@master
-#        with:
-#          password: ${{ secrets.PYPI_API_TOKEN }}
-#          verbose: true
+  publish-release:
+    name: Publish release to PyPI
+    needs: [build-release]
+    environment: "prod"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download build artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: built-package
+          path: './dist'
+      - name: Publish distribution to PyPI
+        uses: pypa/gh-action-pypi-publish@master
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
+          verbose: true
 
   build-and-publish-docs:
     name: Build and publish docs
